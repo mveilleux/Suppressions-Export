@@ -89,7 +89,7 @@ $message = $screen_output;
 
 $uid = md5(uniqid(time()));
 
-$header = "From: Mike Veilleux <".$from.">\r\n";
+$header = "From: Sender <".$from.">\r\n";
 $header .= "MIME-Version: 1.0\r\n";
 $header .= "Content-Type: multipart/mixed; boundary=\"".$uid."\"\r\n\r\n";
 $header .= "This is a multi-part message in MIME format.\r\n";
